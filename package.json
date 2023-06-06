@@ -1,6 +1,6 @@
 {
   "name": "remix-custom-routes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom routing conventions for Remix",
   "main": "index.js",
   "scripts": {

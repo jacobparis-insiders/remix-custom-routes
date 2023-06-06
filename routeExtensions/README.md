@@ -66,7 +66,7 @@ app
   _layout.about.route.tsx
   auth
     auth.login.route.tsx # /auth/login
-    auth.login_.otp.tsx # /auth/login/otp
+    auth.login_.otp.route.tsx # /auth/login/otp
     auth.create-account.route.tsx # /auth/create-account
     auth.reset-password.route.tsx # /auth/reset-password
     session.server.ts
@@ -75,7 +75,7 @@ app
     _layout.blog._index.route.tsx # /blog
     _layout.blog._post.route.tsx # layout for blog posts
     _layout.blog._post.$slug.route.tsx # /blog/hello-world
-    blog.$slug.refresh.ts # resource route for /blog/hello-world/refresh
+    blog.$slug.refresh.route.ts # resource route for /blog/hello-world/refresh
     cache.server.ts
     content
       hello-world.md

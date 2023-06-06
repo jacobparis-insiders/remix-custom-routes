@@ -20,7 +20,7 @@ You can choose the [Remix Route Extension](./routeExtensions/README.md) conventi
 
 ```ts
 //remix-config.js
-const { routeExtensions } = require("remix-custom-routes")
+const { routeExtensions, flatRoutes } = require("remix-custom-routes")
 
 module.exports = {
   ignoredRouteFiles: ["routes/**.*"], // ignore the default route files
@@ -28,6 +28,7 @@ module.exports = {
     const appDirectory = path.join(__dirname, "app")
 
     return routeExtensions(appDirectory)
+    // or flatRoutes(appDirectory)
   },
 }
 ```

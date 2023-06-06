@@ -10,7 +10,7 @@ This convention is good for domain driven design, feature folders, or any simila
 
 ```ts
 //remix-config.js
-const { routeExtensions } = require("remix-custom-routes")
+const { routeExtensions, flatRoutes } = require("remix-custom-routes")
 
 module.exports = {
   ignoredRouteFiles: ["routes/**.*"], // ignore the default route files

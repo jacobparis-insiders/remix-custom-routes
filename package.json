@@ -1,0 +1,31 @@
+{
+  "name": "remix-custom-routes",
+  "version": "1.0.0",
+  "description": "Custom routing conventions for Remix",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest --run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobparis/remix-custom-routes.git"
+  },
+  "keywords": [
+    "Remix"
+  ],
+  "author": "Jacob Paris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobparis/remix-custom-routes/issues"
+  },
+  "homepage": "https://github.com/jacobparis/remix-custom-routes#readme",
+  "devDependencies": {
+    "@types/eslint": "^8.40.0",
+    "@types/glob": "^8.1.0",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-markdown": "^3.0.0",
+    "prettier": "^2.8.8",
+    "vitest": "^0.31.4"
+  }
+}

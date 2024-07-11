@@ -29,7 +29,7 @@ declare module "remix-custom-routes" {
       suffix?: string
       indexNames?: string[]
     },
-  ): string[]
+  ): [string, string][]
 
   export function getRouteManifest(
     sortedRouteIds: [string, string][],
